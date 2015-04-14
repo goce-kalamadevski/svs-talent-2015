@@ -1,0 +1,8 @@
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\bin\Release\CSharpProgrammingBasicsHelloWorld.exe.config
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\bin\Release\CSharpProgrammingBasicsHelloWorld.exe
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\bin\Release\CSharpProgrammingBasicsHelloWorld.pdb
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\bin\Release\CSharpProgrammingBasicsClasses.dll
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\bin\Release\CSharpProgrammingBasicsClasses.pdb
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\obj\Release\CSharpProgrammingBasicsHelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\obj\Release\CSharpProgrammingBasicsHelloWorld.exe
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab01\CSharpProgrammingBasicsHelloWorld\CSharpProgrammingBasicsHelloWorld\obj\Release\CSharpProgrammingBasicsHelloWorld.pdb

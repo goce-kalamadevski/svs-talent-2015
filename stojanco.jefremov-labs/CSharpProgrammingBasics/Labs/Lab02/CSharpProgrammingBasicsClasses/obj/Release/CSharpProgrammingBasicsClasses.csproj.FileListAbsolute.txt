@@ -1,0 +1,4 @@
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab02\CSharpProgrammingBasicsClasses\bin\Release\CSharpProgrammingBasicsClasses.dll
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab02\CSharpProgrammingBasicsClasses\bin\Release\CSharpProgrammingBasicsClasses.pdb
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab02\CSharpProgrammingBasicsClasses\obj\Release\CSharpProgrammingBasicsClasses.dll
+C:\Users\Stole\Desktop\Stole\.Net Training Seavus\Training\CSharpProgrammingBasics\Labs\Lab02\CSharpProgrammingBasicsClasses\obj\Release\CSharpProgrammingBasicsClasses.pdb
