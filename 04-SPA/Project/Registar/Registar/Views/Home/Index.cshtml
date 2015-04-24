@@ -1,0 +1,28 @@
+﻿@model System.Collections.Generic.IEnumerable<Registar.Models.BikeModel>
+
+@{
+    Layout = "../MasterPage.cshtml";
+}
+
+@section HeaderScripts
+{
+    <script type="text/javascript"></script>  
+    bla bla  
+}
+@this.Html.Partial("_PartialView")
+
+<table>
+    <tbody>
+        @foreach (var bike in this.Model)
+        {
+            <tr>
+                <td>@bike.RegNumber</td>
+                <td>@bike.Producer</td>
+                <td>@bike.Model</td>
+                <td>@bike.Colour</td>
+                <td>@this.ViewBag.SomeNewProperty</td>
+            </tr>                    
+        }
+
+    </tbody>
+</table>
