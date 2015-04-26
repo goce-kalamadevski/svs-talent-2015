@@ -1,0 +1,5 @@
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\obj\Debug\Registar.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.BusinessLayer.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.BusinessLayer.pdb
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\obj\Debug\Registar.BusinessLayer.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\obj\Debug\Registar.BusinessLayer.pdb
