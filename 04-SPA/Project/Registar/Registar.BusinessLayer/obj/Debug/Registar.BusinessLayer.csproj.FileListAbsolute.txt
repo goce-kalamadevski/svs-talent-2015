@@ -3,3 +3,12 @@ D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.Busin
 D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.BusinessLayer.pdb
 D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\obj\Debug\Registar.BusinessLayer.dll
 D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\obj\Debug\Registar.BusinessLayer.pdb
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.BusinessLayer.dll.config
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.DataLayer.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.DomainModel.dll
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.DataLayer.pdb
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\Registar.DomainModel.pdb
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\WorkingProjects\GitHub\svs-talent-2015\04-SPA\Project\Registar\Registar.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
