@@ -152,6 +152,14 @@
       <Project>{173d84d5-e811-42dc-814c-e230c87bf5e5}</Project>
       <Name>Registar.BusinessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Registar.Common\Registar.Common.csproj">
+      <Project>{1d3544a5-33a2-46ad-aa73-11dfa5d27d57}</Project>
+      <Name>Registar.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registart.Repository\Registar.Repository.csproj">
+      <Project>{8dabbc68-1631-466a-8ee6-54448fad8c3a}</Project>
+      <Name>Registar.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

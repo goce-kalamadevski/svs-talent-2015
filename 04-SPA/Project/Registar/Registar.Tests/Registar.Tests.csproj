@@ -97,6 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BikeSearchCommandHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +107,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Registar.BusinessLayer\Registar.BusinessLayer.csproj">
+      <Project>{173d84d5-e811-42dc-814c-e230c87bf5e5}</Project>
+      <Name>Registar.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registar.Common\Registar.Common.csproj">
+      <Project>{1d3544a5-33a2-46ad-aa73-11dfa5d27d57}</Project>
+      <Name>Registar.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registar.DomainModel\Registar.DomainModel.csproj">
+      <Project>{73bb7875-ce89-4c1f-85a7-9168ad4970dc}</Project>
+      <Name>Registar.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registart.Repository\Registar.Repository.csproj">
+      <Project>{8dabbc68-1631-466a-8ee6-54448fad8c3a}</Project>
+      <Name>Registar.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Registar\Registar.csproj">
       <Project>{325E6C82-B083-492F-AD7F-802F19EA566E}</Project>
       <Name>Registar</Name>

@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ILogger.cs" />
     <Compile Include="Interfaces\IRepositoryFactory.cs" />
+    <Compile Include="Logging.cs" />
     <Compile Include="RepositoryManager.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
