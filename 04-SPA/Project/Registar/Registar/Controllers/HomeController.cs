@@ -20,7 +20,7 @@ namespace Registar.Controllers
             BikeSearchCommand _command = new BikeSearchCommand();
             BikeSearchResult _result = CommandInvoker.InvokeCommand<BikeSearchCommand, BikeSearchResult>(_command);
             //
-            return View(_result);
+            return View(_result.Result);
         }
 
         public ActionResult Index2()

@@ -47,15 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandInvoker.cs" />
-    <Compile Include="Contracts\BikeSearchCommand.cs" />
-    <Compile Include="Contracts\BikeSearchResult.cs" />
-    <Compile Include="Contracts\_Command.cs" />
-    <Compile Include="Contracts\_CommandResult.cs" />
     <Compile Include="Handlers\BikeSearchCommandHandler.cs" />
     <Compile Include="Handlers\_CommandHandlerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Registar.BL.Contracts\Registar.BL.Contracts.csproj">
+      <Project>{4f084cf1-07cc-4394-b480-7ccc8f690cf0}</Project>
+      <Name>Registar.BL.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Registar.Common\Registar.Common.csproj">
       <Project>{1d3544a5-33a2-46ad-aa73-11dfa5d27d57}</Project>
       <Name>Registar.Common</Name>

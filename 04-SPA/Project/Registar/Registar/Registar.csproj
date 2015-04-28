@@ -148,6 +148,10 @@
     <Content Include="Views\Shared\_PartialView.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Registar.BL.Contracts\Registar.BL.Contracts.csproj">
+      <Project>{4f084cf1-07cc-4394-b480-7ccc8f690cf0}</Project>
+      <Name>Registar.BL.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Registar.BusinessLayer\Registar.BusinessLayer.csproj">
       <Project>{173d84d5-e811-42dc-814c-e230c87bf5e5}</Project>
       <Name>Registar.BusinessLayer</Name>
@@ -155,6 +159,14 @@
     <ProjectReference Include="..\Registar.Common\Registar.Common.csproj">
       <Project>{1d3544a5-33a2-46ad-aa73-11dfa5d27d57}</Project>
       <Name>Registar.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registar.DataLayer\Registar.DataLayer.csproj">
+      <Project>{d46d8021-023f-49ef-b782-266b66bef3f1}</Project>
+      <Name>Registar.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registar.DomainModel\Registar.DomainModel.csproj">
+      <Project>{73bb7875-ce89-4c1f-85a7-9168ad4970dc}</Project>
+      <Name>Registar.DomainModel</Name>
     </ProjectReference>
     <ProjectReference Include="..\Registart.Repository\Registar.Repository.csproj">
       <Project>{8dabbc68-1631-466a-8ee6-54448fad8c3a}</Project>

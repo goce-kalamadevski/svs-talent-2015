@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Registar.Common;
+using Registar.DataLayer;
 using Registar.Repository;
 
 namespace Registar
@@ -23,12 +24,14 @@ namespace Registar
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
             //Init
+            InitProjects();
         }
 
         private void InitProjects()
         {
             //
             RepositoryManager.RegisterFactory(new DefaultRepositoryFactory());
+            DataContextManager.RegisterContextFactory(new RegistarContextFactory());
         }
     }
 }
