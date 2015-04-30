@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandInvoker.cs" />
+    <Compile Include="Handlers\BikeRegisterCommandHandler.cs" />
     <Compile Include="Handlers\BikeSearchCommandHandler.cs" />
     <Compile Include="Handlers\_CommandHandlerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

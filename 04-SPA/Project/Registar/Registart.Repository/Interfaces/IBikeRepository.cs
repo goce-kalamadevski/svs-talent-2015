@@ -12,5 +12,7 @@ namespace Registar.Repository.Interfaces
     public interface IBikeRepository:IRepository
     {
         IList<Bike> SearchBikes(BikeSearchCommand command);
+
+        bool SaveBike(Bike bikeToSave);
     }
 }

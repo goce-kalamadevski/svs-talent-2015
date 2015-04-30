@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\BikeRegisterCommand.cs" />
+    <Compile Include="Contracts\BikeRegisterResult.cs" />
     <Compile Include="Contracts\BikeSearchCommand.cs" />
     <Compile Include="Contracts\BikeSearchResult.cs" />
     <Compile Include="Contracts\_Command.cs" />
