@@ -1,0 +1,30 @@
+﻿<div>
+  <h1>Race Calendar</h1>
+  <h3>Season - {{ raceTable.season }}</h3>
+  <table class="table table-striped table-hover ">
+    <thead>
+      <tr>
+        <th>Round</th>
+        <th>Grand Prix</th>
+        <th>Circuit</th>
+        <th>Date</th>
+        <th>Winner</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="r in raceTable.races | filter: $root.searchText">
+        <td>{{ r.round }}</td>
+        <td>
+          <img ng-src="{{ createImgFlagsUrl(r.circuitCountry) }}" />
+          {{ r.name }}
+        </td>
+        <td>{{ r.circuitName }}</td>
+        <td>{{ r.date }}</td>
+        <td>
+          <img ng-src="{{ createImgFlagsUrl(r.driverNationality) }}" />
+          <a ng-href="#/drivers/{{ r.driverId }}">{{ r.driverGivenName }} {{ r.driverFamilyName }}</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

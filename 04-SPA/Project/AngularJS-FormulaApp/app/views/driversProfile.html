@@ -1,0 +1,64 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <h1>Drivers Profile</h1>
+    </div>
+</div>
+<div class="row">
+    <!--Driver Profile Container-->
+    <div class="col-md-4">
+        <div class="well well-lg">
+            <img class="pull-left" ng-src="{{ createImgDriversUrl(driverStandings.Driver.driverId) }}" />
+            <div class="media media-body media-right">
+                <img ng-src="{{ createImgFlagsUrl(driverStandings.Driver.nationality) }}" />
+                <h4>{{ driverStandings.Driver.givenName }} {{ driverStandings.Driver.familyName }}</h4>
+            </div>
+            <div class="media">
+                <span><strong>Code:</strong></span>
+                {{ driverStandings.Driver.code }}
+                <br />
+                <span><strong>Permanent No:</strong></span>
+                {{ driverStandings.Driver.permanentNumber}}
+                <br />
+                <span><strong>Date of birth:</strong></span>
+                {{ driverStandings.Driver.dateOfBirth }}
+                <br />
+                <span><strong>Nationality:</strong></span>
+                {{ driverStandings.Driver.nationality }}
+                <br />
+                <span><strong>Team:</strong></span>
+                {{ driverStandings.Constructors[0].name }}
+            </div>
+        </div>
+    </div>
+    <!--Results List Container-->
+    <div class="col-md-8">
+        <div class="well well-lg">
+            <h3>Formula 1 {{ raceTable.season }} Results</h3>
+            <table class="table table-striped table-hover ">
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Grand Prix</th>
+                        <th>Team</th>
+                        <th>Grid</th>
+                        <th>Laps</th>
+                        <th>Race</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="race in raceTable.races | filter: $root.searchText">
+                        <td>{{ race.round }}</td>
+                        <td>
+                            <img ng-src="{{ createImgFlagsUrl(race.circuitCountry) }}" />
+                            {{ race.raceName }}
+                        </td>
+                        <td>{{ race.team }}</td>
+                        <td>{{ race.grid }}</td>
+                        <td>{{ race.laps }}</td>
+                        <td>{{ race.position }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

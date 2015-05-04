@@ -1,0 +1,12 @@
+C:\Training\demo\GithubUsers\GithubUsers\bin\GithubUsers.dll.config
+C:\Training\demo\GithubUsers\GithubUsers\bin\GithubUsers.dll
+C:\Training\demo\GithubUsers\GithubUsers\bin\GithubUsers.pdb
+C:\Training\demo\GithubUsers\GithubUsers\obj\Debug\GithubUsers.csprojResolveAssemblyReference.cache
+C:\Training\demo\GithubUsers\GithubUsers\obj\Debug\GithubUsers.dll
+C:\Training\demo\GithubUsers\GithubUsers\obj\Debug\GithubUsers.pdb
+C:\Training\demos\GithubUsers\GithubUsers\bin\GithubUsers.dll.config
+C:\Training\demos\GithubUsers\GithubUsers\bin\GithubUsers.dll
+C:\Training\demos\GithubUsers\GithubUsers\bin\GithubUsers.pdb
+C:\Training\demos\GithubUsers\GithubUsers\obj\Debug\GithubUsers.csprojResolveAssemblyReference.cache
+C:\Training\demos\GithubUsers\GithubUsers\obj\Debug\GithubUsers.dll
+C:\Training\demos\GithubUsers\GithubUsers\obj\Debug\GithubUsers.pdb

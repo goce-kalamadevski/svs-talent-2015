@@ -1,0 +1,37 @@
+﻿<nav class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavigationController">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#/">AngularJS Demo</a>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="#/races">Races</a>
+      </li>
+      <li>
+        <a href="#/teams">Teams</a>
+      </li>
+      <li>
+        <a href="#/drivers">Drivers</a>
+      </li>
+    </ul>
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" ng-model="$root.searchText">
+      </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="javascript:void(0)" ng-click="showAboutModal()">About</a>
+      </li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>

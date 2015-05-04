@@ -1,0 +1,16 @@
+﻿<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" ng-click="vm.closeModal()">&times;</button>
+  <h3 class="modal-title" id="myModalLabel">Driver Profile</h3>
+</div>
+<div id="modal-content-frame" class="modal-body modal-body-intro">
+  <ul rn-carousel rn-carousel-indicator rn-carousel-control class="ng-cloak">
+    <li ng-repeat="slide in vm.slides|limitTo:3" ng-style="{'background-image': 'url(' + slide.image + ')'}" class="carousel-content">
+      <div class="carousel-caption" ng-style="{'min-height': vm.minHeight}">
+        <div ng-include="vm.bu + slide.template"></div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="modal-footer modal-footer-intro center-btn">
+  <button type="button" class="btn btn-default" ng-click="vm.closeModal()">Close</button>
+</div>
